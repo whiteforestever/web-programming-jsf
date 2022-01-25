@@ -1,0 +1,59 @@
+#coordinatesForm, #hits {
+    margin: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+#hits{
+    width: 50%;
+    margin: auto;
+}
+
+#coordinatesForm > * {
+    display: block;
+    margin-bottom: 16px;
+}
+
+#coordinatesForm .options label {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+div canvas#area{
+    width: 400px;
+    height: 400px;
+}
+
+.hidden {
+    display: none;
+}
+
+#hits th, #hits td {
+    min-width: 60px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.errorMsg {
+    display: inline-block;
+    margin-left: 16px;
+    color: #ad0d0d;
+}
+
+.centering {
+    text-align: center;
+    margin: auto;
+}
+
+.standardColor {
+    color: #0f0fac;
+}
+
+.title {
+    font-size: x-large;
+    color: #571a68;
+}
+
+.body{
+    background: radial-gradient(#e5843a 35%, #ccec18);
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.org/ui"
+>
+<h:head>
+    <title>Главная страница</title>
+    <h:outputStylesheet name="start_page.css" />
+</h:head>
+<h:body style="background-color: bisque; text-align: center">
+    <header>
+        <h1>Лабораторная работа №3</h1>
+        <div class="author-name">Белогаев Данила Валерьевич</div>
+        <div class="cursive">P3211</div>
+        <div class="cursive">Вариант: 3108787</div>
+    </header>
+    <main>
+        <h:outputText id="time" value="#{clock.time}" />
+        <p:poll interval="10" update="time" />
+    </main>
+    <footer>
+        <h:link value="Проверить попадание точки в заданную область" outcome="navigate_main" />
+    </footer>
+</h:body>
+</html>
